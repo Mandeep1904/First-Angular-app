@@ -1,0 +1,7 @@
+<h3> Interpolation VS Property Binding</h3>
+<input type="text" value={{name}} disabled={{disable}} />
+<br> <br>
+<input type="text" [value]=name [disabled]=disable>
+<br>
+<button class="btn btn-primary my-2"(click)="makeEnabled()">Enable / Disable</button>
+<button class="btn btn-primary my-2 m-lg-2"(click)="showReason()">Why 1st one doesn't enable ?</button>

@@ -1,0 +1,5 @@
+when you create a component in the angular normally, it's gonna have the standalone : true property in its decorator, make sure you remove that property from it, or else it'll create a conflict between angular's module structure and it's meaning of keeping the component independent,
+hence if not removed, will not let you export it from the module
+
+
+so after removing the property, add the exports array in the TS file of the module and also include the component in declared array.

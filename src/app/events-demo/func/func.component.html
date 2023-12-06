@@ -1,0 +1,6 @@
+<button class="btn btn-primary my-3" (click)="alertBox()">Click here</button>
+<button class="btn btn-warning my-3 m-lg-3" (click)="sayMyName('Mandy','Gohil')">What's My Name</button>
+<br>
+<input type="text" #input1 placeholder="Type Something" (input)="showText(input1.value)">
+<p id="namePara">{{displayVal}}</p>
+<h4 id="h4" (mouseover)="overEvent()">Hover over here</h4>

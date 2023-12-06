@@ -1,0 +1,10 @@
+<h3> Switch case demo</h3>
+Enter a color : <input #colorInput type="text"> <button class="btn btn-primary m-lg-2"
+    (click)="changeColor(colorInput.value)">Click</button>
+
+<div [ngSwitch]='color'>
+    <h4 *ngSwitchCase="'red'" style="color: red;">Red color</h4>
+    <h4 *ngSwitchCase="'blue'" style="color: blue;">Blue color</h4>
+    <h4 *ngSwitchCase="'green'" style="color: green;">Green color</h4>
+    <h4 *ngSwitchDefault>Enter only from RGB</h4> <!-- Default case -->
+</div>

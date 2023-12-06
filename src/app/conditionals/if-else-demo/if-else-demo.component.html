@@ -1,0 +1,9 @@
+<h3> If, else, else-if demo</h3>
+<h3 *ngIf="temp=='If Block'; then ifBlock else elseBlock"></h3>
+<button class="btn btn-primary" (click)="toggleStatus()">{{stat}}</button>
+<ng-template #ifBlock>
+    <p>Output : It's If's Block</p>
+</ng-template>
+<ng-template #elseBlock>
+    <p>Output : It's else's block</p>
+</ng-template>

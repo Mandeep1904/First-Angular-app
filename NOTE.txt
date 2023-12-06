@@ -1,0 +1,5 @@
+This Angular project is a demo project, that consists of demo components and Modules for learning purpose
+
+to run the project, type "ng serve" in cmd
+
+make sure you first have Angular CLI installed in the PC.
