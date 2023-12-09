@@ -1,0 +1,3 @@
+comamnd to build apps
+
+ng new appname --no-standalone --routing --ssr=false
